@@ -96,6 +96,7 @@ body {
 
 .hero .line .company {
   text-decoration: underline;
+  font-size: larger;
 }
 
 .sections-container {
