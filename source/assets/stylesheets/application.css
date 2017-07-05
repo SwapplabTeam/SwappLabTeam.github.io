@@ -1,7 +1,8 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 100%; }
+  font-size: 100%;
+}
 
 body {
   margin: 0;
@@ -108,15 +109,33 @@ body {
       text-align: center; }
     .sections-container .section .section-text-container {
       margin-top: 10px; }
-  .sections-container .section__mojo {
-    background-color: #f97966; }
-  .sections-container .section__services {
-    background-color: #669DF9; }
-  .sections-container .section__contact {
-    background-color: #e7f966; }
 
 .privacy {
   background-color: rgba(255, 255, 255, 0.85);
   margin: 25px;
   padding: 25px;
+}
+
+.app {
+  width: 256px;
+  height: 256px;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.app:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.tennis-grunt {
+  border-radius: 48px;
+  background: url("../images/apps/tennis-grunt-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.is-ios-10-out-yet {
+  border-radius: 48px;
+  background: url("../images/apps/is-ios-10-out-yet-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
