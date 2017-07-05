@@ -2,14 +2,12 @@
 title: SwappLab
 ---
 
-
-
 <header id="menu align-right" class="header">
   <span class="header-logo">
     <%= image_tag 'logo.jpg', :class => 'logo' %>
   </span>
   <span class="align-right">
-    <a href="mailto:swapplabteam@gmail.com" class="hire-link">Contactez-nous</a>
+    <a href="mailto:swapplabteam@gmail.com" class="button">Contactez-nous</a>
   </span>
 </header>
 <section id="hero" class="hero">
@@ -23,7 +21,9 @@ title: SwappLab
     <span class="line">c'est là où on fourre tous nos sideprojects !</span>
   </h2>
 
-  <%= link_to '<div class="app is-ios-10-out-yet"></div>', '/' %>
-  <%= link_to '<div class="app tennis-grunt"></div>', '/tennis-grunt/privacypolicy' %>
+  <div class="grid-x">
+    <div class="small-12 medium-6 cell"><%= link_to '<div class="app is-ios-10-out-yet"></div>', '/', class: "thumbnail" %></div>
+    <div class="small-12 medium-6 cell"><%= link_to '<div class="app tennis-grunt"></div>', '/tennis-grunt/privacypolicy', class: "thumbnail" %></div>
+  </div>
 
 </section>
