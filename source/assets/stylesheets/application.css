@@ -1,0 +1,174 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("../images/background-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.header {
+  padding: 64px 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.header .logo {
+    width: 50px;
+}
+
+.header .hire-link {
+    display: inline-block;
+    color: #f97966;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    line-height: 1.625;
+    letter-spacing: .05em;
+    padding-bottom: 4px;
+}
+
+.header .hire-link:hover {
+      color: #DB1F1F;
+}
+
+.hero {
+  padding: 0 15%;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+@media print, screen and (min-width: 40em) {
+  .hero h1 {
+        font-size: 3rem;
+  }
+}
+
+.hero h2 {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+
+@media print, screen and (min-width: 40em) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+}
+
+.hero .line {
+  display: block;
+}
+
+.hero .line .company {
+  text-decoration: underline;
+}
+
+.sections-container {
+  position: absolute;
+  bottom: 0;
+  padding: 0 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sections-container .section {
+    display: inline-block;
+    padding: 20px 10px;
+    width: 32%;
+    margin: 0;
+    background-color: red;
+    -webkit-transition: height 1s;
+    transition: height 1s;
+    height: 80px;
+    border-radius: 2px;
+    overflow-y: hidden;
+}
+
+.sections-container .section:hover {
+  height: 200px;
+}
+
+.sections-container .section .section-header {
+      padding: 10px 0;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+      font-weight: bold;
+      text-align: center;
+}
+
+.sections-container .section .section-text-container {
+  margin-top: 10px;
+}
+
+.privacy {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 25px;
+  padding: 25px;
+}
+
+.app {
+  width: 256px;
+  height: 256px;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.app:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.tennis-grunt {
+  border-radius: 48px;
+  background: url("../images/apps/tennis-grunt-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.is-ios-10-out-yet {
+  border-radius: 48px;
+  background: url("../images/apps/is-ios-10-out-yet-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
