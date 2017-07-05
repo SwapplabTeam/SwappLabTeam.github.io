@@ -112,3 +112,9 @@ body {
     background-color: #669DF9; }
   .sections-container .section__contact {
     background-color: #e7f966; }
+
+.privacy {
+  background-color: #fefefe;
+  margin: 25px;
+  padding: 25px;
+}
