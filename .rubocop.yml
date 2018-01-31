@@ -1,0 +1,44 @@
+Rails:
+  Enabled: true
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+# Commonly used screens these days easily fit more than 80 characters.
+Metrics/LineLength:
+  Max: 120
+
+# Too short methods lead to extraction of single-use methods, which can make
+# the code easier to read (by naming things), but can also clutter the class
+Metrics/MethodLength:
+  Max: 25
+
+# For specs
+Metrics/BlockLength:
+  Max: 25
+  Exclude:
+    - 'spec/**/*'
+
+# The guiding principle of classes is SRP, SRP can't be accurately measured by LoC
+Metrics/ClassLength:
+  Max: 1500
+
+# The guiding principle of classes is SRP, SRP can't be accurately measured by LoC
+Metrics/CyclomaticComplexity:
+  Max: 11
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+  FunctionalMethods:
+    - before
+    - let
+    - let!
+    - subject
+    - watch
+    - expect
+
+Style/AsciiComments:
+  Enabled: false

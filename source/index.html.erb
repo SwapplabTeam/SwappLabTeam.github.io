@@ -4,7 +4,7 @@ title: SwappLab
 
 <header id="menu align-right" class="header">
   <span class="header-logo">
-    <%= image_tag 'logo.jpg', :class => 'logo' %>
+    <a href="#apps" class="button success">Nos apps / jeux <i class="fas fa-arrow-down"></i></a>
   </span>
   <span class="align-right">
     <a href="mailto:swapplabteam@gmail.com" class="button">Contactez-nous</a>
@@ -14,14 +14,20 @@ title: SwappLab
   <h1 class="typer-title">
     <span class="typer-title__line">
       <span class="line">Hello, ici c'est <span class="company">SwappLab</span></span>
-      <span class="line"></span>
     </span>
   </h1>
   <h2>
-    <span class="line">Nous sommes une équipe de 4 !</span>
+    <span class="line">SwappLab est composée de 4 développeurs passionnés par leur métier :</span>
   </h2>
 
-  <div class="grid-x">
+  <ul>
+    <li><i class="fab fa-android"></i> <a href="https://github.com/HRiffiod" alt"Github d'Hugo Riffiod">Hugo Riffiod</a>, développeur iOS chez PEAKS</li>
+    <li><i class="fab fa-apple"></i> <a href="https://github.com/Cunydamien" alt"Github d'Hugo Riffiod">Damien Cuny</a>, développeur android chez LinkValue</li>
+    <li><i class="fas fa-cloud"></i> <a href="https://github.com/GCalmels" alt"Github d'Hugo Riffiod">Gabriel Calmels</a>, développeur web full-stack chez Kinoba</li>
+    <li><i class="fas fa-cloud"></i> <a href="https://github.com/GWillmann" alt"Github d'Hugo Riffiod">Grégoire Willmann</a>, développeur web full-stack chez Kinoba</span></li>
+  </ul>
+
+  <div id="apps" class="grid-x">
     <div class="small-12 medium-6 large-4 cell">
       <%= link_to '<div class="app is-ios-10-out-yet"></div>', '/', alt: "Is iOS 10 Out Yet" %>
     </div>
